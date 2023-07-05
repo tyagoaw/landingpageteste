@@ -16,6 +16,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .cabecalho-imagem {
@@ -23,10 +27,20 @@
   }
 
 .conteudo-principal {
-  color: black;
-  display: grid;
-  grid-template-columns: 50% 50%;
+ display: flex;
 }
 
+.conteudo-principal-escrito {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: column;
+  color: black;
+}
 
+.form{
+  height: 50vh;
+  width: 600px;
+  background-color: black;
+}
 
